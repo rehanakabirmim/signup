@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP FORM</title>
+</head>
+<body>
+  <h1 style="text-align:center;">Sign Up Form</h1> 
+  <hr>
+  <br>
+  <label for="user">Name:</label> 
+    <input type="text" id="user"name="user" placeholder="User Name"> <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="usermail" placeholder="User Mail" required>
+    <br>
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" name="password" placeholder="Password">
+    <br>
+    <label for="phn">Phone:</label>
+    <br>
+    <select name="code">
+
+<option value="+880">+880</option>
+<option value="+440">+440</option>
+<option value="+990">+990</option>
+
+    </select>
+    <input type="number" id="phn" name="phone" placeholder="123456789" required>
+    <br>
+    <label for="country">Country</label>
+    <input list="con">
+    <datalist id="con">
+        <option value="Bangladesh"></option>
+        <option value="India"></option>
+        <option value="Canada"></option>
+        
+    </datalist>
+    <br>
+    Gender:
+    <input type="radio" id="gnd1" name="gender"
+    <label for="gnd1">Male</label>
+
+    <input type="radio" id="gnd2" name="gender"
+    <label for="gnd2">Female</label>
+    <br>
+    <label for="date">Date of Birth:</label>
+    <input type="date" id="date" name="dob">
+    <br>
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="tm">
+    <br>
+    <label for="Colors">Colors:</label>
+    <input type="Color" id="Colors" name="col">
+    <br>
+    <label for="file">Choose photo:</label>
+    <input type="file" id="file" name="fl">
+    <br>
+    <input type="checkbox" id="vehiclel" name="vec">
+    <label for="vehicle1">I have a bike</label>
+    <input type="checkbox" id="vehicle2" name="vec">
+    <label for="vehicle2">I have a car</label>
+    <br>
+    <textarea name="comment" cols="30" rows="10">Comment Here</textarea>
+    <br>
+    <input type="submit" value="Send">
+    <input type="reset" value="reset">
+
+
+
+
+
+
+
+</body>
+</html>
